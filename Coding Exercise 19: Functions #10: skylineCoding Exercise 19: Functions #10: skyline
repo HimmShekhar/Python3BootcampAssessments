@@ -1,0 +1,10 @@
+def myfunc(inString):
+    resultString=''
+    index=0
+    for a in inString:
+        if index%2==0:
+            resultString = resultString + a.upper()
+        else:
+            resultString = resultString + a.lower()
+        index +=1
+    return resultString
