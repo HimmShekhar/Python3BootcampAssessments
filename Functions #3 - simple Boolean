@@ -1,0 +1,5 @@
+def myfunc(a):
+    if a == True:
+        return 'Hello'
+    if a == False:
+        return 'Goodbye'
